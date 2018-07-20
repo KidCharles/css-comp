@@ -79,3 +79,48 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
 }
 
 
+
+/* CSS GRID -------------------------------------------------------- */
+
+
+.container{
+  display: grid;
+  grid-row-gap: 24px;
+  grid-column-gap: 24px;
+}
+
+.grid1{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid2{
+  grid-template-columns: 1fr 4fr;
+}
+.box{
+  background-color: #e94f1b;
+}
+
+h1 {
+  font-family: 'Roboto', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+ }
+ 
+ .child-title {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+ }
+ 
+ .test1 {
+  white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+/* CSS GRID -------------------------------------------------------- */
+
+
